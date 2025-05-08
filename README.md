@@ -10,7 +10,7 @@ This project demonstrates how to build a logistic regression classifier **from s
 - Implementation of the sigmoid activation function
 - Loss function: Cross Entropy (Log Loss)
 - Manual gradient descent optimization
-- Accuracy evaluation on a real-world dataset (PIMA Indian Diabetes dataset)
+- Accuracy evaluation on a real-world dataset (National Institute of Diabetes and Digestive and Kidney Diseases.)
 
 ---
 
@@ -34,7 +34,7 @@ The logistic regression algorithm is built upon:
 
 ## 🧪 Dataset Used
 
-- [PIMA Indian Diabetes Dataset](https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database)
+- https://www.kaggle.com/datasets/mathchi/diabetes-data-set
 
 ---
 
