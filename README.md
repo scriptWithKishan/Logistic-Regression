@@ -18,15 +18,16 @@ This project demonstrates how to build a logistic regression classifier **from s
 
 The logistic regression algorithm is built upon:
 
-- **Sigmoid function**:  
+- **Sigmoid Function**:  
   \[
-  \sigma(x) = \frac{1}{1 + e^{-x}}
+  \hat{y} = \frac{1}{1 + e^{-z}}
   \]
 
 - **Cross-Entropy Loss**:  
   \[
-  L = -\frac{1}{N} \sum \left[y \log(p) + (1 - y) \log(1 - p)\right]
+  L = -\frac{1}{N} \sum \left[ y \cdot \log(\hat{y}) + (1 - y) \cdot \log(1 - \hat{y}) \right]
   \]
+
 
 - **Gradient Descent** for updating weights and bias.
 
